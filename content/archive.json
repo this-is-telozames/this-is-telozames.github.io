@@ -406,6 +406,508 @@
     "source": "media/archive-136.jpg"
   },
   {
+    "duration": 20.571666666666665,
+    "height": 1000,
+    "id": "archive-137",
+    "poster": "media/archive-137.jpg",
+    "type": "video",
+    "web_source": "media/archive-137-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Последний общий кадр",
+    "place": null,
+    "visible": true,
+    "collection": "after",
+    "album_order": 2,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-137-web-v2.mp4"
+  },
+  {
+    "duration": 34.54,
+    "height": 1000,
+    "id": "archive-138",
+    "poster": "media/archive-138.jpg",
+    "type": "video",
+    "web_source": "media/archive-138-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Обнять всех",
+    "place": null,
+    "visible": true,
+    "collection": "after",
+    "album_order": 3,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-138-web-v2.mp4"
+  },
+  {
+    "duration": 10.773333333333333,
+    "height": 1000,
+    "id": "archive-139",
+    "poster": "media/archive-139.jpg",
+    "type": "video",
+    "web_source": "media/archive-139-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Не хочется расходиться",
+    "place": null,
+    "visible": true,
+    "collection": "after",
+    "album_order": 4,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-139-web-v2.mp4"
+  },
+  {
+    "duration": 25.633333333333333,
+    "height": 1000,
+    "id": "archive-140",
+    "poster": "media/archive-140.jpg",
+    "type": "video",
+    "web_source": "media/archive-140-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Вместе после замеса",
+    "place": null,
+    "visible": true,
+    "collection": "after",
+    "album_order": 5,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-140-web-v2.mp4"
+  },
+  {
+    "duration": 38.8,
+    "height": 1000,
+    "id": "archive-141",
+    "poster": "media/archive-141.jpg",
+    "type": "video",
+    "web_source": "media/archive-141-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Собраться поближе",
+    "place": null,
+    "visible": true,
+    "collection": "after",
+    "album_order": 8,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-141-web-v2.mp4"
+  },
+  {
+    "duration": 25.108344671201813,
+    "height": 1000,
+    "id": "archive-142",
+    "poster": "media/archive-142.jpg",
+    "type": "video",
+    "web_source": "media/archive-142-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Помахать в камеру",
+    "place": null,
+    "visible": true,
+    "collection": "after",
+    "album_order": 9,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-142-web-v2.mp4"
+  },
+  {
+    "height": 4032,
+    "id": "archive-143",
+    "poster": "media/archive-143.jpg",
+    "type": "image",
+    "width": 3024,
+    "web_source": "media/archive-143.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "На берегу",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-143.jpg"
+  },
+  {
+    "duration": 10.341666666666667,
+    "height": 1000,
+    "id": "archive-144",
+    "poster": "media/archive-144.jpg",
+    "type": "video",
+    "web_source": "media/archive-144-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Пауза у воды",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-144-web-v2.mp4"
+  },
+  {
+    "height": 3520,
+    "id": "archive-145",
+    "poster": "media/archive-145.jpg",
+    "type": "image",
+    "width": 1980,
+    "web_source": "media/archive-145.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Небо, поле и мы",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-145.jpg"
+  },
+  {
+    "height": 4032,
+    "id": "archive-146",
+    "poster": "media/archive-146.jpg",
+    "type": "image",
+    "width": 3024,
+    "web_source": "media/archive-146.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Лето у воды",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-146.jpg"
+  },
+  {
+    "height": 4032,
+    "id": "archive-147",
+    "poster": "media/archive-147.jpg",
+    "type": "image",
+    "width": 3024,
+    "web_source": "media/archive-147.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Обняться посреди города",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-147.jpg"
+  },
+  {
+    "duration": 95.56666666666666,
+    "height": 562,
+    "id": "archive-148",
+    "poster": "media/archive-148.jpg",
+    "type": "video",
+    "web_source": "media/archive-148-web-v2.mp4",
+    "width": 1000,
+    "categories": [
+      "movement"
+    ],
+    "caption": "Танец в чёрно-белом",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "movement"
+    ],
+    "category": "movement",
+    "source": "media/archive-148-web-v2.mp4"
+  },
+  {
+    "height": 3520,
+    "id": "archive-149",
+    "poster": "media/archive-149.jpg",
+    "type": "image",
+    "width": 1980,
+    "web_source": "media/archive-149.jpg",
+    "categories": [
+      "movement"
+    ],
+    "caption": "Движение посреди улицы",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "movement"
+    ],
+    "category": "movement",
+    "source": "media/archive-149.jpg"
+  },
+  {
+    "height": 3088,
+    "id": "archive-150",
+    "poster": "media/archive-150.jpg",
+    "type": "image",
+    "width": 2316,
+    "web_source": "media/archive-150.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Рядом со своими",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-150.jpg"
+  },
+  {
+    "height": 1620,
+    "id": "archive-151",
+    "poster": "media/archive-151.jpg",
+    "type": "image",
+    "width": 1080,
+    "web_source": "media/archive-151.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Навстречу солнцу",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-151.jpg"
+  },
+  {
+    "height": 4032,
+    "id": "archive-152",
+    "poster": "media/archive-152.jpg",
+    "type": "image",
+    "width": 3024,
+    "web_source": "media/archive-152.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Пикник на траве",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-152.jpg"
+  },
+  {
+    "duration": 17.7,
+    "height": 848,
+    "id": "archive-153",
+    "poster": "media/archive-153.jpg",
+    "type": "video",
+    "web_source": "media/archive-153-original.mp4",
+    "width": 464,
+    "categories": [
+      "movement"
+    ],
+    "caption": "Танец на горной тропе",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "movement"
+    ],
+    "category": "movement",
+    "source": "media/archive-153-original.mp4"
+  },
+  {
+    "duration": 7.995,
+    "height": 1000,
+    "id": "archive-154",
+    "poster": "media/archive-154.jpg",
+    "type": "video",
+    "web_source": "media/archive-154-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Объятия после встречи",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-154-web-v2.mp4"
+  },
+  {
+    "duration": 17.266666666666666,
+    "height": 848,
+    "id": "archive-155",
+    "poster": "media/archive-155.jpg",
+    "type": "video",
+    "web_source": "media/archive-155-original.mp4",
+    "width": 464,
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Праздничные искры",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-155-original.mp4"
+  },
+  {
+    "duration": 21.566666666666666,
+    "height": 848,
+    "id": "archive-156",
+    "poster": "media/archive-156.jpg",
+    "type": "video",
+    "web_source": "media/archive-156-original.mp4",
+    "width": 464,
+    "categories": [
+      "movement"
+    ],
+    "caption": "Танец на закате",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "movement"
+    ],
+    "category": "movement",
+    "source": "media/archive-156-original.mp4"
+  },
+  {
+    "duration": 27.6,
+    "height": 1000,
+    "id": "archive-157",
+    "poster": "media/archive-157.jpg",
+    "type": "video",
+    "web_source": "media/archive-157-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Настя за пультом",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-157-web-v2.mp4"
+  },
+  {
+    "duration": 144.23666666666668,
+    "height": 1000,
+    "id": "archive-158",
+    "poster": "media/archive-158.jpg",
+    "type": "video",
+    "web_source": "media/archive-158-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "movement"
+    ],
+    "caption": "Движение по кругу",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "movement"
+    ],
+    "category": "movement",
+    "source": "media/archive-158-web-v2.mp4"
+  },
+  {
+    "duration": 17.666666666666668,
+    "height": 1000,
+    "id": "archive-159",
+    "poster": "media/archive-159.jpg",
+    "type": "video",
+    "web_source": "media/archive-159-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "movement"
+    ],
+    "caption": "Картина оживает",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "movement"
+    ],
+    "category": "movement",
+    "source": "media/archive-159-web-v2.mp4"
+  },
+  {
+    "duration": 87.932,
+    "height": 1000,
+    "id": "archive-160",
+    "poster": "media/archive-160.jpg",
+    "type": "video",
+    "web_source": "media/archive-160-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "movement"
+    ],
+    "caption": "Танец со стулом",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "movement"
+    ],
+    "category": "movement",
+    "source": "media/archive-160-web-v2.mp4"
+  },
+  {
     "duration": 9.033333333333333,
     "height": 848,
     "id": "archive-112",
@@ -927,11 +1429,34 @@
     "place": null,
     "visible": true,
     "collection": "after",
+    "album_order": 1,
     "category_labels": [
       "people"
     ],
     "category": "people",
     "source": "media/archive-093-web-v2.mp4"
+  },
+  {
+    "duration": 20.31501133786848,
+    "height": 1000,
+    "id": "archive-094",
+    "poster": "media/archive-094.jpg",
+    "type": "video",
+    "web_source": "media/archive-094-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "people"
+    ],
+    "caption": "Лица после танца",
+    "place": null,
+    "visible": true,
+    "collection": "after",
+    "album_order": 6,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-094-web-v2.mp4"
   },
   {
     "duration": 31.805,
@@ -948,6 +1473,7 @@
     "place": null,
     "visible": true,
     "collection": "after",
+    "album_order": 7,
     "category_labels": [
       "people"
     ],

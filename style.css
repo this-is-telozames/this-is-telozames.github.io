@@ -141,3 +141,6 @@ dialog.viewer-circle::backdrop{background:#080c20ba;backdrop-filter:blur(15px);-
 .album-strip .memory-card img{width:100%;height:100%;object-fit:contain}
 .album-strip .memory-play{font-size:13px}.album-strip .memory-zoom{width:40px;height:40px}
 @media(max-width:600px){.memory-albums{margin:42px 0}.memory-album{padding:28px 0 20px}.album-heading{gap:12px;margin-bottom:19px}.album-heading h3{font-size:34px}.album-heading .film-arrows{gap:7px}.album-heading .film-arrows button{width:37px;height:37px;font-size:20px}.album-strip{gap:13px}.album-strip .memory-card{width:calc(250px * var(--frame-ratio,1));max-width:88%}.album-strip .memory-card button{height:250px}.film-card{padding-bottom:12px}}
+
+/* All nine after-class films: three columns on desktop, swipe on mobile. */
+@media(min-width:601px){.after-clips{grid-template-columns:repeat(3,minmax(0,1fr))}}
