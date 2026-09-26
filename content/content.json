@@ -1,0 +1,277 @@
+{
+  "schema_version": 2,
+  "title": "Телозамес · 6 лет",
+  "idea": "Сначала было движение. Потом вокруг него появился целый мир.",
+  "anniversary": 6,
+  "places": [
+    "Гоа",
+    "Алтай",
+    "Петербург",
+    "Вишенки"
+  ],
+  "stories": [],
+  "quote_order": [
+    "notes-001",
+    "quotes-011",
+    "notes-002",
+    "quotes-015",
+    "quotes-010",
+    "quotes-031",
+    "quotes-011",
+    "quotes-013",
+    "quotes-037",
+    "quotes-031",
+    "quotes-046",
+    "quotes-015",
+    "quotes-041",
+    "quotes-042",
+    "quotes-016",
+    "quotes-032"
+  ],
+  "sections": [
+    {
+      "id": "movement",
+      "title": "Сначала было движение",
+      "type": "hero",
+      "media": [
+        {
+          "duration": 15,
+          "height": 900,
+          "id": "nastya-001",
+          "poster": "media/nastya-001.jpg",
+          "type": "video",
+          "web_source": "media/nastya-001-original.mp4",
+          "width": 720,
+          "source": "media/nastya-001-original.mp4"
+        },
+        {
+          "duration": 22.28921768707483,
+          "height": 900,
+          "id": "nastya-002",
+          "poster": "media/nastya-002.jpg",
+          "type": "video",
+          "web_source": "media/nastya-002-original.mp4",
+          "width": 720,
+          "source": "media/nastya-002-original.mp4"
+        },
+        {
+          "duration": 60.09121768707483,
+          "height": 900,
+          "id": "nastya-003",
+          "poster": "media/nastya-003.jpg",
+          "type": "video",
+          "web_source": "media/nastya-003-original.mp4",
+          "width": 720,
+          "source": "media/nastya-003-original.mp4"
+        },
+        {
+          "duration": 56.352,
+          "height": 1000,
+          "id": "nastya-004",
+          "poster": "media/nastya-004.jpg",
+          "type": "video",
+          "web_source": "media/nastya-004-original.mp4",
+          "width": 562,
+          "source": "media/nastya-004-original.mp4"
+        }
+      ],
+      "fallback_archive_id": null,
+      "intro": "До того, как появился Телозамес, было просто тело. Музыка. Камера. И желание двигаться.",
+      "early_experiments_status": "provided_in_nastya_folder"
+    },
+    {
+      "id": "people",
+      "title": "Потом появился мир",
+      "type": "circles"
+    },
+    {
+      "id": "permissions",
+      "title": "Что Телозамес разрешил",
+      "type": "quotes",
+      "themes": [
+        "свобода тела",
+        "встреча с собой",
+        "игра и детство",
+        "люди и сообщество",
+        "изменения"
+      ]
+    },
+    {
+      "id": "inside",
+      "title": "То, что понимают только свои",
+      "type": "memories",
+      "quote_ids": [],
+      "archive_ids": [
+        "archive-015",
+        "archive-019",
+        "archive-055",
+        "archive-059",
+        "archive-061",
+        "archive-053"
+      ],
+      "collections": {
+        "after": [
+          "archive-093",
+          "archive-094",
+          "archive-095"
+        ]
+      }
+    },
+    {
+      "id": "places",
+      "title": "Места, где это случилось",
+      "type": "film",
+      "place_names_source": "verified_archive_captions",
+      "presentation": "memory_albums_and_film",
+      "photo_geography": "verified_chat_captions_only",
+      "collections": {
+        "studio": [
+          "archive-133",
+          "archive-134",
+          "archive-135",
+          "archive-136",
+          "archive-117",
+          "archive-118"
+        ],
+        "analogue": [
+          "archive-124",
+          "archive-125",
+          "archive-126",
+          "archive-114",
+          "archive-115",
+          "archive-108"
+        ],
+        "retreat": [
+          "archive-131",
+          "archive-132",
+          "archive-119",
+          "archive-120",
+          "archive-107"
+        ],
+        "goa2023": [
+          "archive-127",
+          "archive-128",
+          "archive-129",
+          "archive-130",
+          "archive-112",
+          "archive-113"
+        ],
+        "goa": [
+          "archive-121",
+          "archive-122",
+          "archive-123",
+          "archive-096",
+          "archive-099",
+          "archive-102",
+          "archive-103",
+          "archive-104"
+        ]
+      }
+    },
+    {
+      "id": "final",
+      "title": "Смотри, что ты сотворила. И каких людей вокруг себя собрала.",
+      "type": "final",
+      "closing_quote": "танцуй так, будто на тебя смотрит любящий взгляд Насти"
+    }
+  ],
+  "memory_albums": [
+    {
+      "id": "studio",
+      "title": "В зале"
+    },
+    {
+      "id": "analogue",
+      "title": "На плёнку"
+    },
+    {
+      "id": "retreat",
+      "title": "На выезде"
+    },
+    {
+      "id": "goa2023",
+      "title": "Гоа 2023"
+    },
+    {
+      "id": "goa",
+      "title": "Гоа 2026"
+    }
+  ],
+  "dance": [
+    {
+      "duration": 88.535,
+      "height": 1000,
+      "id": "dance-001",
+      "poster": "media/dance-001.jpg",
+      "type": "video",
+      "web_source": "media/dance-001-web-v2.mp4",
+      "width": 562,
+      "caption": "Танец Насти",
+      "source": "media/dance-001-web-v2.mp4"
+    },
+    {
+      "duration": 28.163,
+      "height": 1000,
+      "id": "dance-002",
+      "poster": "media/dance-002.jpg",
+      "type": "video",
+      "web_source": "media/dance-002-original.mp4",
+      "width": 562,
+      "caption": "Танец Насти",
+      "source": "media/dance-002-original.mp4"
+    },
+    {
+      "duration": 42.034,
+      "height": 1000,
+      "id": "dance-003",
+      "poster": "media/dance-003.jpg",
+      "type": "video",
+      "web_source": "media/dance-003-original.mp4",
+      "width": 562,
+      "caption": "Танец Насти",
+      "source": "media/dance-003-original.mp4"
+    },
+    {
+      "duration": 34.99,
+      "height": 1000,
+      "id": "dance-004",
+      "poster": "media/dance-004.jpg",
+      "type": "video",
+      "web_source": "media/dance-004-original.mp4",
+      "width": 562,
+      "caption": "Танец Насти",
+      "source": "media/dance-004-original.mp4"
+    },
+    {
+      "duration": 58.003,
+      "height": 1000,
+      "id": "dance-005",
+      "poster": "media/dance-005.jpg",
+      "type": "video",
+      "web_source": "media/dance-005-web-v2.mp4",
+      "width": 562,
+      "caption": "Танец Насти",
+      "source": "media/dance-005-web-v2.mp4"
+    },
+    {
+      "duration": 83.15,
+      "height": 1000,
+      "id": "dance-006",
+      "poster": "media/dance-006.jpg",
+      "type": "video",
+      "web_source": "media/dance-006-web-v2.mp4",
+      "width": 562,
+      "caption": "Танец Насти",
+      "source": "media/dance-006-web-v2.mp4"
+    }
+  ],
+  "portrait": {
+    "height": 2586,
+    "id": "portrait-001",
+    "poster": "media/portrait-001.jpg",
+    "type": "image",
+    "width": 2068,
+    "web_source": "media/portrait-001.jpg",
+    "source": "media/portrait-001.jpg"
+  }
+}
