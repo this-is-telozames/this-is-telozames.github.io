@@ -21,6 +21,27 @@
     "source": "media/archive-001-web-v2.mp4"
   },
   {
+    "duration": 18.7,
+    "height": 1000,
+    "id": "archive-003",
+    "poster": "media/archive-003.jpg",
+    "type": "video",
+    "web_source": "media/archive-003-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "places"
+    ],
+    "caption": "Деревянный дом и зелёный склон",
+    "place": "Вишенки",
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "места"
+    ],
+    "category": "places",
+    "source": "media/archive-003-web-v2.mp4"
+  },
+  {
     "duration": 13.2,
     "height": 1000,
     "id": "archive-007",
@@ -1175,6 +1196,26 @@
     "source": "media/archive-123-web-v2.mp4"
   },
   {
+    "height": 960,
+    "id": "archive-017",
+    "poster": "media/archive-017.jpg",
+    "type": "image",
+    "width": 1280,
+    "web_source": "media/archive-017.jpg",
+    "categories": [
+      "funny"
+    ],
+    "caption": "У собаки своя практика",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "смешные моменты"
+    ],
+    "category": "funny",
+    "source": "media/archive-017.jpg"
+  },
+  {
     "height": 1280,
     "id": "archive-019",
     "poster": "media/archive-019.jpg",
@@ -1215,6 +1256,26 @@
     "source": "media/archive-021.jpg"
   },
   {
+    "height": 1920,
+    "id": "archive-029",
+    "poster": "media/archive-029.jpg",
+    "type": "image",
+    "width": 2560,
+    "web_source": "media/archive-029.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Обниматься и фотографироваться",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "люди"
+    ],
+    "category": "people",
+    "source": "media/archive-029.jpg"
+  },
+  {
     "height": 2560,
     "id": "archive-031",
     "poster": "media/archive-031.jpg",
@@ -1235,6 +1296,46 @@
     "source": "media/archive-031.jpg"
   },
   {
+    "height": 2560,
+    "id": "archive-033",
+    "poster": "media/archive-033.jpg",
+    "type": "image",
+    "width": 1920,
+    "web_source": "media/archive-033.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Подарок с ленточкой",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "атмосфера"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-033.jpg"
+  },
+  {
+    "height": 1280,
+    "id": "archive-035",
+    "poster": "media/archive-035.jpg",
+    "type": "image",
+    "width": 960,
+    "web_source": "media/archive-035.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Фрукты и свечи у окна",
+    "place": "Вишенки",
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "атмосфера"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-035.jpg"
+  },
+  {
     "height": 2049,
     "id": "archive-037",
     "poster": "media/archive-037.jpg",
@@ -1253,6 +1354,26 @@
     ],
     "category": "movement",
     "source": "media/archive-037.jpg"
+  },
+  {
+    "height": 1280,
+    "id": "archive-041",
+    "poster": "media/archive-041.jpg",
+    "type": "image",
+    "width": 591,
+    "web_source": "media/archive-041.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Чёрно-белый портрет из архива",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "люди"
+    ],
+    "category": "people",
+    "source": "media/archive-041.jpg"
   },
   {
     "height": 1280,
@@ -1413,6 +1534,88 @@
     ],
     "category": "funny",
     "source": "media/archive-061.jpg"
+  },
+  {
+    "duration": 9.976666666666667,
+    "height": 1000,
+    "id": "archive-161",
+    "poster": "media/archive-161.jpg",
+    "type": "video",
+    "web_source": "media/archive-161-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "У моря свой ритм",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-161-web-v2.mp4"
+  },
+  {
+    "height": 5712,
+    "id": "archive-162",
+    "poster": "media/archive-162.jpg",
+    "type": "image",
+    "width": 3213,
+    "web_source": "media/archive-162.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Между прогулками",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-162.jpg"
+  },
+  {
+    "height": 4284,
+    "id": "archive-163",
+    "poster": "media/archive-163.jpg",
+    "type": "image",
+    "width": 5712,
+    "web_source": "media/archive-163.jpg",
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Засиделись в кафе",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-163.jpg"
+  },
+  {
+    "duration": 12.895,
+    "height": 1000,
+    "id": "archive-164",
+    "poster": "media/archive-164.jpg",
+    "type": "video",
+    "web_source": "media/archive-164-web-v2.mp4",
+    "width": 562,
+    "categories": [
+      "atmosphere"
+    ],
+    "caption": "Неожиданные попутчики",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "atmosphere"
+    ],
+    "category": "atmosphere",
+    "source": "media/archive-164-web-v2.mp4"
   },
   {
     "duration": 32.833333333333336,
@@ -1651,6 +1854,46 @@
     ],
     "category": "people",
     "source": "media/archive-108.jpg"
+  },
+  {
+    "height": 1280,
+    "id": "archive-110",
+    "poster": "media/archive-110.jpg",
+    "type": "image",
+    "width": 853,
+    "web_source": "media/archive-110.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Вот так выглядит близость",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-110.jpg"
+  },
+  {
+    "height": 1280,
+    "id": "archive-111",
+    "poster": "media/archive-111.jpg",
+    "type": "image",
+    "width": 849,
+    "web_source": "media/archive-111.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Загадывай",
+    "place": null,
+    "visible": true,
+    "collection": "film",
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-111.jpg"
   },
   {
     "duration": 33.96666666666667,
