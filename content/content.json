@@ -4,10 +4,10 @@
   "idea": "Сначала было движение. Потом вокруг него появился целый мир.",
   "anniversary": 6,
   "places": [
-    "Вишенки",
     "Гоа",
     "Алтай",
-    "Петербург"
+    "Петербург",
+    "Вишенки"
   ],
   "stories": [],
   "quote_order": [
@@ -132,45 +132,38 @@
       "photo_geography": "verified_chat_captions_only",
       "collections": {
         "studio": [
+          "archive-124",
           "archive-133",
           "archive-134",
           "archive-135",
           "archive-136",
-          "archive-117",
-          "archive-118"
-        ],
-        "analogue": [
-          "archive-124",
-          "archive-125",
-          "archive-126",
+          "archive-148",
           "archive-114",
           "archive-115",
+          "archive-117",
+          "archive-118",
+          "archive-105",
           "archive-108"
         ],
-        "retreat": [
+        "trips": [
+          "archive-128",
+          "archive-130",
           "archive-131",
-          "archive-132",
+          "archive-112",
+          "archive-113",
           "archive-119",
           "archive-120",
-          "archive-107"
-        ],
-        "goa2023": [
-          "archive-127",
-          "archive-128",
-          "archive-129",
-          "archive-130",
-          "archive-112",
-          "archive-113"
-        ],
-        "goa": [
           "archive-121",
           "archive-122",
           "archive-123",
+          "archive-037",
+          "archive-049",
           "archive-096",
-          "archive-099",
           "archive-102",
           "archive-103",
-          "archive-104"
+          "archive-104",
+          "archive-107",
+          "archive-085"
         ]
       }
     },
@@ -184,23 +177,12 @@
   "memory_albums": [
     {
       "id": "studio",
-      "title": "В зале"
+      "title": "В зале и на плёнке"
     },
     {
-      "id": "analogue",
-      "title": "На плёнку"
-    },
-    {
-      "id": "retreat",
-      "title": "На выезде"
-    },
-    {
-      "id": "goa2023",
-      "title": "Гоа 2023"
-    },
-    {
-      "id": "goa",
-      "title": "Гоа 2026"
+      "id": "trips",
+      "title": "Выезды и ретриты",
+      "location_captions": true
     }
   ],
   "dance": [

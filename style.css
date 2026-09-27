@@ -144,3 +144,13 @@ dialog.viewer-circle::backdrop{background:#080c20ba;backdrop-filter:blur(15px);-
 
 /* All nine after-class films: three columns on desktop, swipe on mobile. */
 @media(min-width:601px){.after-clips{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Photo-led archive, with location labels only for the trips. */
+.cat-story{grid-template-columns:1.1fr 1fr}.cat-story .meme-card{justify-self:end}
+#viewer-nav:not([hidden]){display:flex;align-items:center;justify-content:center;gap:24px;padding-top:12px;background:var(--paper)}
+#viewer-nav button{width:48px;height:44px;border-radius:50%;background:var(--blue);color:var(--paper);font-size:24px}
+#viewer-position{min-width:65px;text-align:center;font-size:14px;font-variant-numeric:tabular-nums}
+.gallery-no-title #viewer-title{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.gallery-no-title .viewer-head{justify-content:flex-end;margin-bottom:8px}
+#viewer:has(#viewer-nav:not([hidden])) #viewer-body>img,#viewer:has(#viewer-nav:not([hidden])) #viewer-body>video{max-height:calc(90dvh - 150px)}
+@media(max-width:600px){.cat-story{grid-template-columns:1fr}.cat-story .meme-card{justify-self:center}#viewer-nav:not([hidden]){gap:30px}.album-strip figcaption{font-size:12px;margin-top:10px}}

@@ -15,7 +15,7 @@
  document.addEventListener('touchstart',touchFocus,{capture:true,passive:true});
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
  const archive=new Map(D.archive.map(a=>[a.id,a]));
- const viewer=$('#viewer'),body=$('#viewer-body');let previousFocus=null;
+ const viewer=$('#viewer'),body=$('#viewer-body');let previousFocus=null;let gallery=null;
  const intro=$('#letter-intro'),postcard=$('#postcard');
  // Direct chapter links stay usable. Reloading the main address begins with the letter.
  if(!location.hash){
@@ -28,18 +28,22 @@
  }
  function openNote(q,title){
   if(!q)return;
-  previousFocus=document.activeElement;pauseAll();viewer.classList.remove('viewer-circle');body.replaceChildren();$('#viewer-title').textContent=title||('Из записки'+(q.author?' · '+q.author:''));$('#viewer-error').textContent='';
+  previousFocus=document.activeElement;gallery=null;$('#viewer-nav').hidden=true;viewer.classList.remove('gallery-no-title');pauseAll();viewer.classList.remove('viewer-circle');body.replaceChildren();$('#viewer-title').textContent=title||('Из записки'+(q.author?' · '+q.author:''));$('#viewer-error').textContent='';
   const note=document.createElement('div');note.className='note-text';note.textContent=q.text||q.excerpt;body.append(note);viewer.showModal();document.body.style.overflow='hidden';
  }
  const pauseAll=()=>$$('video').forEach(v=>{v.pause();if(v.hasAttribute('data-preview')&&v.hasAttribute('src')){v.removeAttribute('src');v.load();}});
- function open(item,title,type){
-  previousFocus=document.activeElement;pauseAll();body.replaceChildren();$('#viewer-title').textContent=title;$('#viewer-error').textContent='';
+ function open(item,title,type,context=null){
+  if(!viewer.open)previousFocus=context?.trigger||document.activeElement;
+  gallery=context;pauseAll();body.querySelectorAll('video').forEach(v=>{v.removeAttribute('src');v.load();});body.replaceChildren();$('#viewer-title').textContent=title;$('#viewer-error').textContent='';
+  viewer.classList.toggle('gallery-no-title',Boolean(context?.hideTitle));
+  $('#viewer-nav').hidden=!context||context.items.length<2;
+  if(context){$('#viewer-position').textContent=`${context.index+1} / ${context.items.length}`;$('#viewer-prev').disabled=context.index===0;$('#viewer-next').disabled=context.index===context.items.length-1;}
   const isCircle=item.type==='video_circle';viewer.classList.toggle('viewer-circle',isCircle);
   const isVideo=type==='video'||item.type==='video'||isCircle;
   const node=document.createElement(isVideo?'video':'img');
   node.src=url(isVideo?(item.web_source||item.source):item.source);if(!isVideo)node.alt=title;
-  if(isVideo){node.controls=!isCircle;node.playsInline=true;node.preload='metadata';if(item.poster)node.poster=url(item.face_poster||item.poster);node.addEventListener('waiting',()=>{$('#viewer-error').textContent='Видео загружается…';});node.addEventListener('playing',()=>{$('#viewer-error').textContent='';});}
-  node.addEventListener('error',()=>{$('#viewer-error').textContent='Не получилось открыть файл в браузере. ';const a=document.createElement('a');a.href=url(item.source);a.textContent=isVideo?'Открыть видео отдельно':'Открыть фото отдельно';a.target='_blank';a.rel='noopener';$('#viewer-error').append(a);});
+  if(isVideo){node.controls=!isCircle;node.playsInline=true;node.preload='metadata';if(item.poster)node.poster=url(item.face_poster||item.poster);node.addEventListener('waiting',()=>{if(!node.isConnected)return;$('#viewer-error').textContent='Видео загружается…';});node.addEventListener('playing',()=>{if(!node.isConnected)return;$('#viewer-error').textContent='';});}
+  node.addEventListener('error',()=>{if(!node.isConnected)return;$('#viewer-error').textContent='Не получилось открыть файл в браузере. ';const a=document.createElement('a');a.href=url(item.source);a.textContent=isVideo?'Открыть видео отдельно':'Открыть фото отдельно';a.target='_blank';a.rel='noopener';$('#viewer-error').append(a);});
   if(isCircle){
    const stage=document.createElement('div');stage.className='circle-stage';stage.append(node);body.append(stage);
    const controls=document.createElement('div');controls.className='circle-controls';
@@ -53,11 +57,21 @@
    sound.onclick=()=>{node.muted=!node.muted;sound.textContent=node.muted?'Включить звук':'Выключить звук';sound.setAttribute('aria-label',node.muted?'Включить звук':'Выключить звук');sound.setAttribute('aria-pressed',String(!node.muted));};
    seek.oninput=()=>{node.currentTime=Number(seek.value);update();};update();
   }else body.append(node);
-  viewer.showModal();document.body.style.overflow='hidden';
-  if(isVideo)node.play().catch(()=>{$('#viewer-error').textContent='Нажми ▶ на видео, чтобы начать.';});
+  if(!viewer.open)viewer.showModal();document.body.style.overflow='hidden';
+  if(isVideo)node.play().catch(()=>{if(node.isConnected)$('#viewer-error').textContent='Нажми ▶ на видео, чтобы начать.';});
  }
+ function stepGallery(delta){
+  if(!gallery)return;const index=gallery.index+delta;if(index<0||index>=gallery.items.length)return;
+  const context={...gallery,index},item=context.items[index];open(item,item.location_label||item.caption||'Воспоминание',undefined,context);
+ }
+ $('#viewer-prev').onclick=()=>stepGallery(-1);$('#viewer-next').onclick=()=>stepGallery(1);
+ viewer.addEventListener('keydown',e=>{if(!gallery||e.target.closest('input,textarea,video')||e.target.isContentEditable)return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();stepGallery(e.key==='ArrowLeft'?-1:1);}});
+ let swipe=null;
+ body.addEventListener('touchstart',e=>{swipe=gallery&&e.touches.length===1&&e.target.tagName==='IMG'?{x:e.touches[0].clientX,y:e.touches[0].clientY}:null;},{passive:true});
+ body.addEventListener('touchend',e=>{if(!swipe||!e.changedTouches.length)return;const dx=e.changedTouches[0].clientX-swipe.x,dy=e.changedTouches[0].clientY-swipe.y;swipe=null;if(Math.abs(dx)>55&&Math.abs(dy)<Math.abs(dx)*.6)stepGallery(dx<0?1:-1);},{passive:true});
+ body.addEventListener('touchcancel',()=>{swipe=null;},{passive:true});
  function close(){viewer.close();}
- viewer.addEventListener('close',()=>{body.querySelectorAll('video').forEach(v=>{v.pause();v.removeAttribute('src');v.load();});body.replaceChildren();document.body.style.overflow='';previousFocus?.focus();});
+ viewer.addEventListener('close',()=>{body.querySelectorAll('video').forEach(v=>{v.pause();v.removeAttribute('src');v.load();});body.replaceChildren();gallery=null;swipe=null;$('#viewer-nav').hidden=true;document.body.style.overflow='';previousFocus?.focus();});
  $('#close-viewer').addEventListener('click',close);
  viewer.addEventListener('click',e=>{if(e.target===viewer){const r=viewer.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)close();}});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)pauseAll();});
@@ -73,19 +87,19 @@
  }
  function memoryCards(target,items,options={}){
   const container=$(target);if(!container)return;
-  container.innerHTML=items.map((a,i)=>`<figure class="memory-card ${options.featureFirst&&i===0?'memory-feature':''}"><button class="media-button" data-memory-index="${i}" aria-label="${a.type==='video'?'Смотреть видео':'Открыть фото'}: ${esc(a.caption||options.title||'Воспоминание')}"><img src="${url(a.poster)}" alt="${esc(a.caption||options.title||'Воспоминание')}" loading="lazy">${a.type==='video'?`<span class="memory-play">▶ <span>${duration(a.duration)}</span></span>`:'<span class="memory-zoom" aria-hidden="true">↗</span>'}</button>${options.captions===false?'':`<figcaption>${esc(a.caption||options.title||'Воспоминание')}</figcaption>`}</figure>`).join('');
-  container.querySelectorAll('[data-memory-index]').forEach(b=>{const a=items[Number(b.dataset.memoryIndex)];b.onclick=()=>open(a,a.caption||options.title||'Воспоминание');});
+  container.innerHTML=items.map((a,i)=>`<figure class="memory-card ${options.featureFirst&&i===0?'memory-feature':''}"><button class="media-button" data-memory-index="${i}" aria-label="${a.type==='video'?'Смотреть видео':'Открыть фото'}: ${esc(a.caption||options.title||'Воспоминание')}"><img src="${url(a.poster)}" alt="${esc(a.caption||options.title||'Воспоминание')}" loading="lazy">${a.type==='video'?`<span class="memory-play">▶ <span>${duration(a.duration)}</span></span>`:'<span class="memory-zoom" aria-hidden="true">↗</span>'}</button>${options.locationCaptions?`<figcaption>${esc(a.location_label||'')}</figcaption>`:options.captions===false?'':`<figcaption>${esc(a.caption||options.title||'Воспоминание')}</figcaption>`}</figure>`).join('');
+  container.querySelectorAll('[data-memory-index]').forEach(b=>{const a=items[Number(b.dataset.memoryIndex)];b.onclick=()=>open(a,options.locationCaptions?a.location_label:(a.caption||options.title||'Воспоминание'),undefined,{items,trigger:b,index:Number(b.dataset.memoryIndex),hideTitle:options.captions===false&&!options.locationCaptions});});
  }
  if(early.length){$('#early-memories').hidden=false;memoryCards('#early-clips',early.map((a,i)=>({...a,caption:['Просто включить музыку','Двигаться по-своему','Поймать настроение','Попробовать ещё'][i]||'Ещё одно движение'})));}
  const dances=D.content.dance||[];
  if(dances.length){$('#dance-memory').hidden=false;memoryCards('#dance-clips',dances,{captions:false,title:'Танец Насти'});}
  const collection=name=>D.archive.filter(a=>a.visible&&a.collection===name);
- memoryCards('#after-clips',collection('after').sort((a,b)=>(a.album_order??99)-(b.album_order??99)));
+ memoryCards('#after-clips',collection('after').sort((a,b)=>(a.album_order??99)-(b.album_order??99)),{captions:false});
  const albums=D.content.memory_albums||[];
  $('#memory-albums').innerHTML=albums.map(a=>`<section class="memory-album" aria-labelledby="album-title-${esc(a.id)}"><div class="album-heading"><h3 id="album-title-${esc(a.id)}">${esc(a.title)}</h3><div class="film-arrows"><button data-album-prev="${esc(a.id)}" aria-label="${esc(a.title)}: предыдущие кадры">←</button><button data-album-next="${esc(a.id)}" aria-label="${esc(a.title)}: следующие кадры">→</button></div></div><div id="album-${esc(a.id)}" class="album-strip" tabindex="0" role="region" aria-label="${esc(a.title)}. Листай вбок"></div></section>`).join('');
  albums.forEach(a=>{
   const items=collection(a.id).sort((x,y)=>(x.album_order??99)-(y.album_order??99));
-  memoryCards('#album-'+a.id,items,{captions:false,title:a.title});
+  memoryCards('#album-'+a.id,items,{captions:false,title:a.title,locationCaptions:Boolean(a.location_captions)});
   const strip=$('#album-'+a.id),prev=$(`[data-album-prev="${a.id}"]`),next=$(`[data-album-next="${a.id}"]`);
   [...strip.children].forEach((card,i)=>card.style.setProperty('--frame-ratio',String(Math.max(.65,Math.min(1.8,(items[i].width||1)/(items[i].height||1))))));
   const update=()=>{prev.disabled=strip.scrollLeft<2;next.disabled=strip.scrollLeft+strip.clientWidth>=strip.scrollWidth-3;};
@@ -142,12 +156,12 @@
  const service=archive.get('archive-051');$('#self-service').innerHTML=`<img loading="lazy" src="${url(service.poster)}" alt="Извините, у нас самообслуживание"><span>«Извините,<br>у нас самообслуживание»</span>`;$('#self-service').onclick=()=>open(service,'Читать грубым голосом');
  const aerobics=archive.get('archive-053');$('#aerobics').innerHTML=`<img loading="lazy" src="${url(aerobics.poster)}" alt="Аэробика на Алтае: ноги выше головы"><span>Мама называла это<br>аэробикой.</span>`;$('#aerobics').onclick=()=>open(aerobics,'«Аэробика на Алтае» · Юля Муха');
  const movie=archive.get('archive-073');$('#movie').innerHTML=`<img loading="lazy" src="${url(movie.poster)}" alt="Видео перед Телозамесом в Петербурге"><span class="movie-play">▶</span>`;$('#movie').onclick=()=>open(movie,'«Когда-нибудь я сниму фильм о своей жизни»');
- const filmOrder=["archive-049", "archive-017", "archive-148", "archive-147", "archive-029", "archive-085", "archive-153", "archive-163", "archive-143", "archive-075", "archive-033", "archive-157", "archive-150", "archive-003", "archive-009", "archive-156", "archive-111", "archive-145", "archive-037", "archive-161", "archive-154", "archive-149", "archive-041", "archive-047", "archive-155", "archive-035", "archive-152", "archive-001", "archive-164", "archive-158", "archive-144", "archive-110", "archive-159", "archive-151", "archive-162", "archive-160", "archive-146"];
+ const filmOrder=["archive-147", "archive-111", "archive-157", "archive-029", "archive-156", "archive-017", "archive-150", "archive-155", "archive-154", "archive-143", "archive-075", "archive-159", "archive-116", "archive-160", "archive-047", "archive-152", "archive-001", "archive-110", "archive-151", "archive-153", "archive-041", "archive-079", "archive-144", "archive-164", "archive-031", "archive-149"];
  const films=D.archive.filter(a=>a.visible&&(!a.collection||a.collection==='film')).sort((a,b)=>(filmOrder.includes(a.id)?filmOrder.indexOf(a.id):99)-(filmOrder.includes(b.id)?filmOrder.indexOf(b.id):99));
  function renderFilm(){
   const list=films;
   $('#film').innerHTML=list.length?list.map((a,i)=>`<figure class="film-card"><button class="media-button" data-media="${a.id}" aria-label="${a.type==='video'?'Смотреть видео':'Открыть фото'}: ${esc(a.caption)}"><img src="${url(a.poster)}" alt="${esc(a.caption)}" loading="lazy">${a.type==='video'?'<span class="film-play">▶ '+duration(a.duration)+'</span>':''}</button></figure>`).join(''):'<p class="film-empty">Здесь появятся наши воспоминания.</p>';
-  $('#film').scrollLeft=0;$$('[data-media]').forEach(b=>b.onclick=()=>{const a=archive.get(b.dataset.media);open(a,a.caption);});
+  $('#film').scrollLeft=0;$$('[data-media]').forEach(b=>b.onclick=()=>{const a=archive.get(b.dataset.media);open(a,a.caption,undefined,{items:films,trigger:b,index:films.findIndex(x=>x.id===a.id),hideTitle:true});});
   updateArrows();
  }
  function updateArrows(){const f=$('#film');$('#film-prev').disabled=f.scrollLeft<2;$('#film-next').disabled=f.scrollLeft+f.clientWidth>=f.scrollWidth-3;}

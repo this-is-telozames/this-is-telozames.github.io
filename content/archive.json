@@ -11,98 +11,16 @@
       "movement"
     ],
     "caption": "Танец у микроавтобуса",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 16,
     "category_labels": [
       "движение"
     ],
     "category": "movement",
     "source": "media/archive-001-web-v2.mp4"
-  },
-  {
-    "duration": 18.7,
-    "height": 1000,
-    "id": "archive-003",
-    "poster": "media/archive-003.jpg",
-    "type": "video",
-    "web_source": "media/archive-003-web-v2.mp4",
-    "width": 562,
-    "categories": [
-      "places"
-    ],
-    "caption": "Деревянный дом и зелёный склон",
-    "place": "Вишенки",
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "места"
-    ],
-    "category": "places",
-    "source": "media/archive-003-web-v2.mp4"
-  },
-  {
-    "duration": 13.2,
-    "height": 1000,
-    "id": "archive-007",
-    "poster": "media/archive-007.jpg",
-    "type": "video",
-    "web_source": "media/archive-007-web-v2.mp4",
-    "width": 562,
-    "categories": [
-      "people"
-    ],
-    "caption": "Вместе за столом на улице",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "люди"
-    ],
-    "category": "people",
-    "source": "media/archive-007-web-v2.mp4"
-  },
-  {
-    "duration": 10.966666666666667,
-    "height": 1000,
-    "id": "archive-009",
-    "poster": "media/archive-009.jpg",
-    "type": "video",
-    "web_source": "media/archive-009-original.mp4",
-    "width": 750,
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "На берегу, ноги над водой",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "атмосфера"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-009-original.mp4"
-  },
-  {
-    "duration": 24.9,
-    "height": 1000,
-    "id": "archive-011",
-    "poster": "media/archive-011.jpg",
-    "type": "video",
-    "web_source": "media/archive-011-original.mp4",
-    "width": 562,
-    "categories": [
-      "movement"
-    ],
-    "caption": "Танец в зале под куполом",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "движение"
-    ],
-    "category": "movement",
-    "source": "media/archive-011-original.mp4"
   },
   {
     "duration": 5.733333333333333,
@@ -116,6 +34,7 @@
       "funny"
     ],
     "caption": "Тот самый кот на АЗС",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "inside",
@@ -137,86 +56,17 @@
       "atmosphere"
     ],
     "caption": "На плёнку · кадр 3",
+    "year": null,
     "place": null,
     "visible": true,
-    "collection": "analogue",
-    "album_order": 2,
+    "collection": "studio",
+    "album_order": 7,
     "category_labels": [
       "люди",
       "атмосфера"
     ],
     "category": "people",
     "source": "media/archive-124.jpg"
-  },
-  {
-    "height": 3089,
-    "id": "archive-125",
-    "poster": "media/archive-125.jpg",
-    "type": "image",
-    "width": 2048,
-    "web_source": "media/archive-125.jpg",
-    "categories": [
-      "people",
-      "atmosphere"
-    ],
-    "caption": "На плёнку · кадр 4",
-    "place": null,
-    "visible": true,
-    "collection": "analogue",
-    "album_order": 3,
-    "category_labels": [
-      "люди",
-      "атмосфера"
-    ],
-    "category": "people",
-    "source": "media/archive-125.jpg"
-  },
-  {
-    "height": 3089,
-    "id": "archive-126",
-    "poster": "media/archive-126.jpg",
-    "type": "image",
-    "width": 2048,
-    "web_source": "media/archive-126.jpg",
-    "categories": [
-      "people",
-      "atmosphere"
-    ],
-    "caption": "На плёнку · кадр 5",
-    "place": null,
-    "visible": true,
-    "collection": "analogue",
-    "album_order": 4,
-    "category_labels": [
-      "люди",
-      "атмосфера"
-    ],
-    "category": "people",
-    "source": "media/archive-126.jpg"
-  },
-  {
-    "duration": 31.366666666666667,
-    "height": 848,
-    "id": "archive-127",
-    "poster": "media/archive-127.jpg",
-    "type": "video",
-    "web_source": "media/archive-127-original.mp4",
-    "width": 464,
-    "categories": [
-      "people",
-      "atmosphere"
-    ],
-    "caption": "Гоа 2023 · кадр 2",
-    "place": null,
-    "visible": true,
-    "collection": "goa2023",
-    "album_order": 1,
-    "category_labels": [
-      "люди",
-      "атмосфера"
-    ],
-    "category": "people",
-    "source": "media/archive-127-original.mp4"
   },
   {
     "duration": 7.866666666666666,
@@ -231,39 +81,18 @@
       "atmosphere"
     ],
     "caption": "Гоа 2023 · кадр 3",
-    "place": null,
+    "year": 2023,
+    "place": "Гоа",
     "visible": true,
-    "collection": "goa2023",
-    "album_order": 2,
+    "collection": "trips",
+    "album_order": 3,
+    "location_label": "Гоа · 2023",
     "category_labels": [
       "люди",
       "атмосфера"
     ],
     "category": "people",
     "source": "media/archive-128-original.mp4"
-  },
-  {
-    "height": 1280,
-    "id": "archive-129",
-    "poster": "media/archive-129.jpg",
-    "type": "image",
-    "width": 960,
-    "web_source": "media/archive-129.jpg",
-    "categories": [
-      "people",
-      "atmosphere"
-    ],
-    "caption": "Гоа 2023 · кадр 4",
-    "place": null,
-    "visible": true,
-    "collection": "goa2023",
-    "album_order": 3,
-    "category_labels": [
-      "люди",
-      "атмосфера"
-    ],
-    "category": "people",
-    "source": "media/archive-129.jpg"
   },
   {
     "height": 1280,
@@ -277,10 +106,12 @@
       "atmosphere"
     ],
     "caption": "Гоа 2023 · кадр 5",
-    "place": null,
+    "year": 2023,
+    "place": "Гоа",
     "visible": true,
-    "collection": "goa2023",
-    "album_order": 4,
+    "collection": "trips",
+    "album_order": 11,
+    "location_label": "Гоа · 2023",
     "category_labels": [
       "люди",
       "атмосфера"
@@ -300,39 +131,18 @@
       "atmosphere"
     ],
     "caption": "На выезде · кадр 2",
+    "year": 2024,
     "place": null,
     "visible": true,
-    "collection": "retreat",
-    "album_order": 1,
+    "collection": "trips",
+    "album_order": 8,
+    "location_label": "Выезд · 2024",
     "category_labels": [
       "люди",
       "атмосфера"
     ],
     "category": "people",
     "source": "media/archive-131.jpg"
-  },
-  {
-    "height": 4608,
-    "id": "archive-132",
-    "poster": "media/archive-132.jpg",
-    "type": "image",
-    "width": 3456,
-    "web_source": "media/archive-132.jpg",
-    "categories": [
-      "people",
-      "atmosphere"
-    ],
-    "caption": "На выезде · кадр 3",
-    "place": null,
-    "visible": true,
-    "collection": "retreat",
-    "album_order": 2,
-    "category_labels": [
-      "люди",
-      "атмосфера"
-    ],
-    "category": "people",
-    "source": "media/archive-132.jpg"
   },
   {
     "height": 5763,
@@ -346,10 +156,11 @@
       "movement"
     ],
     "caption": "В зале · кадр 1",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "studio",
-    "album_order": 0,
+    "album_order": 4,
     "category_labels": [
       "люди",
       "движение"
@@ -369,10 +180,11 @@
       "movement"
     ],
     "caption": "В зале · кадр 3",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "studio",
-    "album_order": 2,
+    "album_order": 1,
     "category_labels": [
       "люди",
       "движение"
@@ -392,10 +204,11 @@
       "movement"
     ],
     "caption": "В зале · кадр 4",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "studio",
-    "album_order": 3,
+    "album_order": 10,
     "category_labels": [
       "люди",
       "движение"
@@ -415,10 +228,11 @@
       "movement"
     ],
     "caption": "В зале · кадр 5",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "studio",
-    "album_order": 4,
+    "album_order": 0,
     "category_labels": [
       "люди",
       "движение"
@@ -438,6 +252,7 @@
       "people"
     ],
     "caption": "Последний общий кадр",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -460,6 +275,7 @@
       "people"
     ],
     "caption": "Обнять всех",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -482,6 +298,7 @@
       "people"
     ],
     "caption": "Не хочется расходиться",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -504,6 +321,7 @@
       "people"
     ],
     "caption": "Вместе после замеса",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -526,6 +344,7 @@
       "people"
     ],
     "caption": "Собраться поближе",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -548,6 +367,7 @@
       "people"
     ],
     "caption": "Помахать в камеру",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -569,9 +389,11 @@
       "atmosphere"
     ],
     "caption": "На берегу",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 9,
     "category_labels": [
       "atmosphere"
     ],
@@ -590,54 +412,16 @@
       "atmosphere"
     ],
     "caption": "Пауза у воды",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 22,
     "category_labels": [
       "atmosphere"
     ],
     "category": "atmosphere",
     "source": "media/archive-144-web-v2.mp4"
-  },
-  {
-    "height": 3520,
-    "id": "archive-145",
-    "poster": "media/archive-145.jpg",
-    "type": "image",
-    "width": 1980,
-    "web_source": "media/archive-145.jpg",
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "Небо, поле и мы",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "atmosphere"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-145.jpg"
-  },
-  {
-    "height": 4032,
-    "id": "archive-146",
-    "poster": "media/archive-146.jpg",
-    "type": "image",
-    "width": 3024,
-    "web_source": "media/archive-146.jpg",
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "Лето у воды",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "atmosphere"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-146.jpg"
   },
   {
     "height": 4032,
@@ -650,9 +434,11 @@
       "people"
     ],
     "caption": "Обняться посреди города",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 0,
     "category_labels": [
       "people"
     ],
@@ -663,7 +449,7 @@
     "duration": 95.56666666666666,
     "height": 562,
     "id": "archive-148",
-    "poster": "media/archive-148.jpg",
+    "poster": "media/archive-148-frame-2.jpg",
     "type": "video",
     "web_source": "media/archive-148-web-v2.mp4",
     "width": 1000,
@@ -671,9 +457,11 @@
       "movement"
     ],
     "caption": "Танец в чёрно-белом",
+    "year": null,
     "place": null,
     "visible": true,
-    "collection": "film",
+    "collection": "studio",
+    "album_order": 5,
     "category_labels": [
       "movement"
     ],
@@ -691,9 +479,11 @@
       "movement"
     ],
     "caption": "Движение посреди улицы",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 25,
     "category_labels": [
       "movement"
     ],
@@ -711,9 +501,11 @@
       "people"
     ],
     "caption": "Рядом со своими",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 6,
     "category_labels": [
       "people"
     ],
@@ -731,9 +523,11 @@
       "atmosphere"
     ],
     "caption": "Навстречу солнцу",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 18,
     "category_labels": [
       "atmosphere"
     ],
@@ -751,9 +545,11 @@
       "atmosphere"
     ],
     "caption": "Пикник на траве",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 15,
     "category_labels": [
       "atmosphere"
     ],
@@ -772,9 +568,11 @@
       "movement"
     ],
     "caption": "Танец на горной тропе",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 19,
     "category_labels": [
       "movement"
     ],
@@ -793,9 +591,11 @@
       "people"
     ],
     "caption": "Объятия после встречи",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 8,
     "category_labels": [
       "people"
     ],
@@ -814,9 +614,11 @@
       "atmosphere"
     ],
     "caption": "Праздничные искры",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 7,
     "category_labels": [
       "atmosphere"
     ],
@@ -835,9 +637,11 @@
       "movement"
     ],
     "caption": "Танец на закате",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 4,
     "category_labels": [
       "movement"
     ],
@@ -856,35 +660,16 @@
       "atmosphere"
     ],
     "caption": "Настя за пультом",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 2,
     "category_labels": [
       "atmosphere"
     ],
     "category": "atmosphere",
     "source": "media/archive-157-web-v2.mp4"
-  },
-  {
-    "duration": 144.23666666666668,
-    "height": 1000,
-    "id": "archive-158",
-    "poster": "media/archive-158.jpg",
-    "type": "video",
-    "web_source": "media/archive-158-web-v2.mp4",
-    "width": 562,
-    "categories": [
-      "movement"
-    ],
-    "caption": "Движение по кругу",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "movement"
-    ],
-    "category": "movement",
-    "source": "media/archive-158-web-v2.mp4"
   },
   {
     "duration": 17.666666666666668,
@@ -898,9 +683,11 @@
       "movement"
     ],
     "caption": "Картина оживает",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 11,
     "category_labels": [
       "movement"
     ],
@@ -919,9 +706,11 @@
       "movement"
     ],
     "caption": "Танец со стулом",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 13,
     "category_labels": [
       "movement"
     ],
@@ -941,10 +730,12 @@
       "atmosphere"
     ],
     "caption": "Гоа 2023 · кадр 1",
+    "year": 2023,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa2023",
-    "album_order": 0,
+    "collection": "trips",
+    "album_order": 14,
+    "location_label": "Гоа · 2023",
     "category_labels": [
       "люди",
       "атмосфера"
@@ -964,10 +755,12 @@
       "atmosphere"
     ],
     "caption": "Гоа 2023 · кадр 6",
+    "year": 2023,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa2023",
-    "album_order": 5,
+    "collection": "trips",
+    "album_order": 6,
+    "location_label": "Гоа · 2023",
     "category_labels": [
       "люди",
       "атмосфера"
@@ -987,10 +780,11 @@
       "atmosphere"
     ],
     "caption": "На плёнку · кадр 1",
+    "year": null,
     "place": null,
     "visible": true,
-    "collection": "analogue",
-    "album_order": 0,
+    "collection": "studio",
+    "album_order": 6,
     "category_labels": [
       "люди",
       "атмосфера"
@@ -1010,10 +804,11 @@
       "atmosphere"
     ],
     "caption": "На плёнку · кадр 2",
+    "year": null,
     "place": null,
     "visible": true,
-    "collection": "analogue",
-    "album_order": 1,
+    "collection": "studio",
+    "album_order": 3,
     "category_labels": [
       "люди",
       "атмосфера"
@@ -1032,9 +827,11 @@
       "people"
     ],
     "caption": "Загадывай желание",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 12,
     "category_labels": [
       "people"
     ],
@@ -1053,10 +850,11 @@
       "movement"
     ],
     "caption": "В зале · кадр 2",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "studio",
-    "album_order": 1,
+    "album_order": 8,
     "category_labels": [
       "люди",
       "движение"
@@ -1076,10 +874,11 @@
       "movement"
     ],
     "caption": "В зале · кадр 6",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "studio",
-    "album_order": 5,
+    "album_order": 2,
     "category_labels": [
       "люди",
       "движение"
@@ -1099,10 +898,12 @@
       "atmosphere"
     ],
     "caption": "На выезде · кадр 1",
+    "year": 2024,
     "place": null,
     "visible": true,
-    "collection": "retreat",
-    "album_order": 0,
+    "collection": "trips",
+    "album_order": 2,
+    "location_label": "Выезд · 2024",
     "category_labels": [
       "люди",
       "атмосфера"
@@ -1122,10 +923,12 @@
       "atmosphere"
     ],
     "caption": "На выезде · кадр 5",
+    "year": 2024,
     "place": null,
     "visible": true,
-    "collection": "retreat",
-    "album_order": 4,
+    "collection": "trips",
+    "album_order": 15,
+    "location_label": "Выезд · 2024",
     "category_labels": [
       "люди",
       "атмосфера"
@@ -1145,9 +948,12 @@
       "atmosphere"
     ],
     "caption": "Вечеринка",
+    "year": 2026,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa",
+    "collection": "trips",
+    "album_order": 7,
+    "location_label": "Гоа · 2026",
     "category_labels": [
       "атмосфера"
     ],
@@ -1165,9 +971,12 @@
       "atmosphere"
     ],
     "caption": "Банька. Вода и лепестки",
+    "year": 2026,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa",
+    "collection": "trips",
+    "album_order": 16,
+    "location_label": "Гоа · 2026",
     "category_labels": [
       "атмосфера"
     ],
@@ -1186,9 +995,12 @@
       "atmosphere"
     ],
     "caption": "Чай, неспешно",
+    "year": 2026,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa",
+    "collection": "trips",
+    "album_order": 10,
+    "location_label": "Гоа · 2026",
     "category_labels": [
       "атмосфера"
     ],
@@ -1206,9 +1018,11 @@
       "funny"
     ],
     "caption": "У собаки своя практика",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 5,
     "category_labels": [
       "смешные моменты"
     ],
@@ -1226,6 +1040,7 @@
       "funny"
     ],
     "caption": "Кот: «разъеб разъебыч»",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "inside",
@@ -1234,26 +1049,6 @@
     ],
     "category": "funny",
     "source": "media/archive-019.jpg"
-  },
-  {
-    "height": 2560,
-    "id": "archive-021",
-    "poster": "media/archive-021.jpg",
-    "type": "image",
-    "width": 1920,
-    "web_source": "media/archive-021.jpg",
-    "categories": [
-      "people"
-    ],
-    "caption": "Вместе после занятия",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "люди"
-    ],
-    "category": "people",
-    "source": "media/archive-021.jpg"
   },
   {
     "height": 1920,
@@ -1266,9 +1061,11 @@
       "people"
     ],
     "caption": "Обниматься и фотографироваться",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 3,
     "category_labels": [
       "люди"
     ],
@@ -1286,54 +1083,16 @@
       "movement"
     ],
     "caption": "Танец в солнечной полосе",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 24,
     "category_labels": [
       "движение"
     ],
     "category": "movement",
     "source": "media/archive-031.jpg"
-  },
-  {
-    "height": 2560,
-    "id": "archive-033",
-    "poster": "media/archive-033.jpg",
-    "type": "image",
-    "width": 1920,
-    "web_source": "media/archive-033.jpg",
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "Подарок с ленточкой",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "атмосфера"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-033.jpg"
-  },
-  {
-    "height": 1280,
-    "id": "archive-035",
-    "poster": "media/archive-035.jpg",
-    "type": "image",
-    "width": 960,
-    "web_source": "media/archive-035.jpg",
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "Фрукты и свечи у окна",
-    "place": "Вишенки",
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "атмосфера"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-035.jpg"
   },
   {
     "height": 2049,
@@ -1346,9 +1105,12 @@
       "movement"
     ],
     "caption": "Руки к небу у воды",
+    "year": null,
     "place": "Алтай",
     "visible": true,
-    "collection": "film",
+    "collection": "trips",
+    "album_order": 9,
+    "location_label": "Алтай",
     "category_labels": [
       "движение"
     ],
@@ -1366,9 +1128,11 @@
       "people"
     ],
     "caption": "Чёрно-белый портрет из архива",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 20,
     "category_labels": [
       "люди"
     ],
@@ -1386,9 +1150,11 @@
       "people"
     ],
     "caption": "Вместе у зимнего костра",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 14,
     "category_labels": [
       "люди"
     ],
@@ -1406,9 +1172,12 @@
       "places"
     ],
     "caption": "На катере между горами",
+    "year": null,
     "place": "Алтай",
     "visible": true,
-    "collection": "film",
+    "collection": "trips",
+    "album_order": 1,
+    "location_label": "Алтай",
     "category_labels": [
       "места"
     ],
@@ -1426,6 +1195,7 @@
       "funny"
     ],
     "caption": "«Извините, у нас самообслуживание»",
+    "year": null,
     "place": "Алтай",
     "visible": true,
     "collection": "inside",
@@ -1446,6 +1216,7 @@
       "funny"
     ],
     "caption": "«Аэробика на Алтае»",
+    "year": null,
     "place": "Алтай",
     "visible": true,
     "collection": "inside",
@@ -1466,6 +1237,7 @@
       "funny"
     ],
     "caption": "Кот: «Я тоже»",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "inside",
@@ -1486,6 +1258,7 @@
       "funny"
     ],
     "caption": "Кот. Просто кот",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "inside",
@@ -1506,6 +1279,7 @@
       "funny"
     ],
     "caption": "Кот: «Маша не иди на бокс»",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "inside",
@@ -1526,6 +1300,7 @@
       "funny"
     ],
     "caption": "Кот: «Это мутная тема Лен»",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "inside",
@@ -1534,67 +1309,6 @@
     ],
     "category": "funny",
     "source": "media/archive-061.jpg"
-  },
-  {
-    "duration": 9.976666666666667,
-    "height": 1000,
-    "id": "archive-161",
-    "poster": "media/archive-161.jpg",
-    "type": "video",
-    "web_source": "media/archive-161-web-v2.mp4",
-    "width": 562,
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "У моря свой ритм",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "atmosphere"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-161-web-v2.mp4"
-  },
-  {
-    "height": 5712,
-    "id": "archive-162",
-    "poster": "media/archive-162.jpg",
-    "type": "image",
-    "width": 3213,
-    "web_source": "media/archive-162.jpg",
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "Между прогулками",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "atmosphere"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-162.jpg"
-  },
-  {
-    "height": 4284,
-    "id": "archive-163",
-    "poster": "media/archive-163.jpg",
-    "type": "image",
-    "width": 5712,
-    "web_source": "media/archive-163.jpg",
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "Засиделись в кафе",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "atmosphere"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-163.jpg"
   },
   {
     "duration": 12.895,
@@ -1608,9 +1322,11 @@
       "atmosphere"
     ],
     "caption": "Неожиданные попутчики",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 23,
     "category_labels": [
       "atmosphere"
     ],
@@ -1629,6 +1345,7 @@
       "people"
     ],
     "caption": "Ещё немного побыть вместе",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -1651,6 +1368,7 @@
       "people"
     ],
     "caption": "Лица после танца",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -1673,6 +1391,7 @@
       "people"
     ],
     "caption": "Когда все в одном кадре",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "after",
@@ -1695,35 +1414,17 @@
       "movement"
     ],
     "caption": "Танцы под пальмами",
+    "year": 2026,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa",
+    "collection": "trips",
+    "album_order": 4,
+    "location_label": "Гоа · 2026",
     "category_labels": [
       "movement"
     ],
     "category": "movement",
     "source": "media/archive-096-web-v2.mp4"
-  },
-  {
-    "duration": 12.731666666666667,
-    "height": 562,
-    "id": "archive-099",
-    "poster": "media/archive-099.jpg",
-    "type": "video",
-    "web_source": "media/archive-099-web-v2.mp4",
-    "width": 1000,
-    "categories": [
-      "places"
-    ],
-    "caption": "К морю",
-    "place": "Гоа",
-    "visible": true,
-    "collection": "goa",
-    "category_labels": [
-      "places"
-    ],
-    "category": "places",
-    "source": "media/archive-099-web-v2.mp4"
   },
   {
     "duration": 5.601666666666667,
@@ -1737,10 +1438,12 @@
       "movement"
     ],
     "caption": "Все вместе. На пляже",
+    "year": 2026,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa",
-    "album_order": -1,
+    "collection": "trips",
+    "album_order": 0,
+    "location_label": "Гоа · 2026",
     "category_labels": [
       "movement"
     ],
@@ -1759,9 +1462,12 @@
       "people"
     ],
     "caption": "Побудем здесь ещё",
+    "year": 2026,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa",
+    "collection": "trips",
+    "album_order": 17,
+    "location_label": "Гоа · 2026",
     "category_labels": [
       "people"
     ],
@@ -1780,9 +1486,12 @@
       "people"
     ],
     "caption": "Обниматься в море",
+    "year": 2026,
     "place": "Гоа",
     "visible": true,
-    "collection": "goa",
+    "collection": "trips",
+    "album_order": 13,
+    "location_label": "Гоа · 2026",
     "category_labels": [
       "people"
     ],
@@ -1800,9 +1509,11 @@
       "people"
     ],
     "caption": "Обнять и никуда не спешить",
+    "year": null,
     "place": null,
     "visible": true,
-    "collection": "film",
+    "collection": "studio",
+    "album_order": 11,
     "category_labels": [
       "people"
     ],
@@ -1821,10 +1532,12 @@
       "atmosphere"
     ],
     "caption": "На выезде · кадр 4",
+    "year": 2024,
     "place": null,
     "visible": true,
-    "collection": "retreat",
-    "album_order": 3,
+    "collection": "trips",
+    "album_order": 12,
+    "location_label": "Выезд · 2024",
     "category_labels": [
       "люди",
       "атмосфера"
@@ -1844,10 +1557,11 @@
       "atmosphere"
     ],
     "caption": "На плёнку · кадр 6",
+    "year": null,
     "place": null,
     "visible": true,
-    "collection": "analogue",
-    "album_order": 5,
+    "collection": "studio",
+    "album_order": 9,
     "category_labels": [
       "люди",
       "атмосфера"
@@ -1866,9 +1580,11 @@
       "people"
     ],
     "caption": "Вот так выглядит близость",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 17,
     "category_labels": [
       "people"
     ],
@@ -1886,56 +1602,16 @@
       "people"
     ],
     "caption": "Загадывай",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 1,
     "category_labels": [
       "people"
     ],
     "category": "people",
     "source": "media/archive-111.jpg"
-  },
-  {
-    "duration": 33.96666666666667,
-    "height": 848,
-    "id": "archive-065",
-    "poster": "media/archive-065.jpg",
-    "type": "video",
-    "web_source": "media/archive-065-original.mp4",
-    "width": 464,
-    "categories": [
-      "atmosphere"
-    ],
-    "caption": "Разговор за столом у окна",
-    "place": "Петербург",
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "атмосфера"
-    ],
-    "category": "atmosphere",
-    "source": "media/archive-065-original.mp4"
-  },
-  {
-    "duration": 7.466666666666667,
-    "height": 848,
-    "id": "archive-067",
-    "poster": "media/archive-067.jpg",
-    "type": "video",
-    "web_source": "media/archive-067-original.mp4",
-    "width": 464,
-    "categories": [
-      "movement"
-    ],
-    "caption": "Практика на полу в светлом зале",
-    "place": null,
-    "visible": true,
-    "collection": "film",
-    "category_labels": [
-      "движение"
-    ],
-    "category": "movement",
-    "source": "media/archive-067-original.mp4"
   },
   {
     "duration": 18.566666666666666,
@@ -1949,6 +1625,7 @@
       "people"
     ],
     "caption": "«Когда-нибудь я сниму фильм о своей жизни»",
+    "year": null,
     "place": "Петербург",
     "visible": true,
     "collection": "inside",
@@ -1970,9 +1647,11 @@
       "funny"
     ],
     "caption": "«Просто постоять вместе на голове»",
+    "year": null,
     "place": null,
     "visible": true,
     "collection": "film",
+    "album_order": 10,
     "category_labels": [
       "смешные моменты"
     ],
@@ -1991,9 +1670,11 @@
       "funny"
     ],
     "caption": "Куча мала в зале",
+    "year": null,
     "place": "Вишенки",
     "visible": true,
     "collection": "film",
+    "album_order": 21,
     "category_labels": [
       "смешные моменты"
     ],
@@ -2012,9 +1693,12 @@
       "movement"
     ],
     "caption": "Танец на траве",
+    "year": null,
     "place": "Вишенки",
     "visible": true,
-    "collection": "film",
+    "collection": "trips",
+    "album_order": 5,
+    "location_label": "Вишенки",
     "category_labels": [
       "движение"
     ],
