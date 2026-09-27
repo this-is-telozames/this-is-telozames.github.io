@@ -1334,6 +1334,182 @@
     "source": "media/archive-164-web-v2.mp4"
   },
   {
+    "height": 5550,
+    "id": "archive-165",
+    "poster": "media/archive-165.jpg",
+    "type": "image",
+    "width": 3700,
+    "web_source": "media/archive-165.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Улыбка в кругу",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 12,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-165.jpg"
+  },
+  {
+    "height": 6000,
+    "id": "archive-166",
+    "poster": "media/archive-166.jpg",
+    "type": "image",
+    "width": 4000,
+    "web_source": "media/archive-166.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Руки вверх",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 13,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-166.jpg"
+  },
+  {
+    "height": 6000,
+    "id": "archive-167",
+    "poster": "media/archive-167.jpg",
+    "type": "image",
+    "width": 4000,
+    "web_source": "media/archive-167.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Все вместе",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 14,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-167.jpg"
+  },
+  {
+    "height": 3648,
+    "id": "archive-168",
+    "poster": "media/archive-168.jpg",
+    "type": "image",
+    "width": 5472,
+    "web_source": "media/archive-168.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "В центре круга",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 15,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-168.jpg"
+  },
+  {
+    "height": 3408,
+    "id": "archive-169",
+    "poster": "media/archive-169.jpg",
+    "type": "image",
+    "width": 2272,
+    "web_source": "media/archive-169.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Обнять и не отпускать",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 16,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-169.jpg"
+  },
+  {
+    "height": 3408,
+    "id": "archive-170",
+    "poster": "media/archive-170.jpg",
+    "type": "image",
+    "width": 2272,
+    "web_source": "media/archive-170.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Смеяться вместе",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 17,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-170.jpg"
+  },
+  {
+    "height": 2711,
+    "id": "archive-171",
+    "poster": "media/archive-171.jpg",
+    "type": "image",
+    "width": 2169,
+    "web_source": "media/archive-171.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Между движениями",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 18,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-171.jpg"
+  },
+  {
+    "height": 3408,
+    "id": "archive-172",
+    "poster": "media/archive-172.jpg",
+    "type": "image",
+    "width": 2272,
+    "web_source": "media/archive-172.jpg",
+    "categories": [
+      "people"
+    ],
+    "caption": "Слушать своих",
+    "year": null,
+    "place": null,
+    "visible": true,
+    "collection": "studio",
+    "album_order": 19,
+    "category_labels": [
+      "people"
+    ],
+    "category": "people",
+    "source": "media/archive-172.jpg"
+  },
+  {
     "duration": 32.833333333333336,
     "height": 1000,
     "id": "archive-093",

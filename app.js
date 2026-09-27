@@ -22,8 +22,8 @@
   intro.hidden=false;postcard.hidden=true;
   $('#open-letter').onclick=()=>{
    if(intro.classList.contains('opening'))return;
-   intro.classList.add('opening');$('#open-letter').setAttribute('aria-disabled','true');
-   setTimeout(()=>{intro.hidden=true;postcard.hidden=false;window.scrollTo(0,0);const h=$('#hero-title');h.tabIndex=-1;h.focus({preventScroll:true});},reduced.matches?0:1050);
+   intro.classList.add('opening');document.dispatchEvent(new Event('letter-open')); $('#open-letter').setAttribute('aria-disabled','true');
+   setTimeout(()=>{intro.hidden=true;postcard.hidden=false;window.scrollTo(0,0);const h=$('#hero-title');h.tabIndex=-1;h.focus({preventScroll:true});},reduced.matches?2100:3350);
   };
  }
  function openNote(q,title){
@@ -154,8 +154,8 @@
  $('#cat').onclick=nextCat;$('#next-cat').onclick=nextCat;renderCat();
  $('#cat-video').onclick=()=>open(archive.get('archive-015'),'Тот самый кот на АЗС');
  const service=archive.get('archive-051');$('#self-service').innerHTML=`<img loading="lazy" src="${url(service.poster)}" alt="Извините, у нас самообслуживание"><span>«Извините,<br>у нас самообслуживание»</span>`;$('#self-service').onclick=()=>open(service,'Читать грубым голосом');
- const aerobics=archive.get('archive-053');$('#aerobics').innerHTML=`<img loading="lazy" src="${url(aerobics.poster)}" alt="Аэробика на Алтае: ноги выше головы"><span>Мама называла это<br>аэробикой.</span>`;$('#aerobics').onclick=()=>open(aerobics,'«Аэробика на Алтае» · Юля Муха');
  const movie=archive.get('archive-073');$('#movie').innerHTML=`<img loading="lazy" src="${url(movie.poster)}" alt="Видео перед Телозамесом в Петербурге"><span class="movie-play">▶</span>`;$('#movie').onclick=()=>open(movie,'«Когда-нибудь я сниму фильм о своей жизни»');
+ const aerobics=archive.get('archive-053');$('#aerobics').innerHTML=`<img loading="lazy" src="${url(aerobics.poster)}" alt="Ноги выше головы — аэробика на Алтае"><span class="memory-zoom" aria-hidden="true">↗</span>`;$('#aerobics').onclick=()=>open(aerobics,'Мама называла это аэробикой');
  const filmOrder=["archive-147", "archive-111", "archive-157", "archive-029", "archive-156", "archive-017", "archive-150", "archive-155", "archive-154", "archive-143", "archive-075", "archive-159", "archive-116", "archive-160", "archive-047", "archive-152", "archive-001", "archive-110", "archive-151", "archive-153", "archive-041", "archive-079", "archive-144", "archive-164", "archive-031", "archive-149"];
  const films=D.archive.filter(a=>a.visible&&(!a.collection||a.collection==='film')).sort((a,b)=>(filmOrder.includes(a.id)?filmOrder.indexOf(a.id):99)-(filmOrder.includes(b.id)?filmOrder.indexOf(b.id):99));
  function renderFilm(){

@@ -142,6 +142,14 @@
           "archive-115",
           "archive-117",
           "archive-118",
+          "archive-165",
+          "archive-166",
+          "archive-167",
+          "archive-168",
+          "archive-169",
+          "archive-170",
+          "archive-171",
+          "archive-172",
           "archive-105",
           "archive-108"
         ],
@@ -177,7 +185,7 @@
   "memory_albums": [
     {
       "id": "studio",
-      "title": "В зале и на плёнке"
+      "title": "В зале"
     },
     {
       "id": "trips",
